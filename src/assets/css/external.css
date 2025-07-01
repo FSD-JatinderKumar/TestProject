@@ -1,0 +1,39 @@
+.announcement-bar {
+      background: #080708;
+      padding: 10px 0 !important;
+      text-align: center;
+    }
+
+    .announcement-bar .topbar-slider {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .announcement-bar .topbar-slider a {
+      color: #fff;
+      font-weight: 700;
+      font-family: inter, sans-serif;
+      text-decoration: none !important;
+    }
+
+    .topbar-slider .days,
+    .topbar-slider .hours,
+    .topbar-slider .minutes,
+    .topbar-slider .seconds {
+      padding: 5px;
+      background: rgba(255, 255, 255, .3);
+      margin: 0 1px;
+      display: inline-block;
+      border-radius: 3px;
+      width: 40px;
+      font-weight: 500;
+      font-family: inter, sans-serif;
+    }
+
+    @media(max-width:600px) {
+      .announcement-bar .topbar-slider a {
+        font-size: 12px;
+      }
+    }
+

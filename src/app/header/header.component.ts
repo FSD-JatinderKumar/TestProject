@@ -1,7 +1,7 @@
-import { Component, OnInit, AfterViewInit, Inject } from '@angular/core';
+import { Component, OnInit, AfterViewInit, Inject, DOCUMENT } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
-import { DOCUMENT } from '@angular/common';
+
 
 @Component({
   selector: 'app-header',

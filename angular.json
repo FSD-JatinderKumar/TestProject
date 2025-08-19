@@ -28,9 +28,15 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/external.css"
+              "src/assets/css/external.css",
+              "node_modules/slick-carousel/slick/slick.css",
+              "node_modules/slick-carousel/slick/slick-theme.css"
             ],
-            "scripts": ["/src/assets/js/external.js"],
+            "scripts": [
+              "/src/assets/js/external.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/slick-carousel/slick/slick.min.js"
+            ],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -98,7 +104,9 @@
           "options": {
             "browserTarget": "click-to-call:build:production",
             "serverTarget": "click-to-call:server:production",
-            "routes": ["/"]
+            "routes": [
+              "/"
+            ]
           }
         },
         "extract-i18n": {
@@ -119,12 +127,17 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/slick-carousel/slick/slick.css",
+              "node_modules/slick-carousel/slick/slick-theme.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e0891010-497d-4dbd-bc83-2d684e1e5450"
   }
 }
